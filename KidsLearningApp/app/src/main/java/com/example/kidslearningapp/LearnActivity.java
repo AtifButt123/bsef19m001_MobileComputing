@@ -21,8 +21,8 @@ public class LearnActivity extends AppCompatActivity {
         setContentView(R.layout.activity_learn);
         listView = findViewById(R.id.listView);
         String[] result = {"Apple", "Ball", "Cat", "Dog", "Elephant", "Fish", "Goat", "Hen",
-                "IceCream", "Jug", "Kite", "Lion", "Mango", "Nest", "Orange", "Parrot",
-                "Quack", "Rabbit", "Sun", "Tree", "Umbrella", "Van", "Whale", "X-ray", "Yok", "Zebra"};
+                "IceCream", "Jug", "Kite", "Lion", "Monkey", "Nest", "Orange", "Parrot",
+                "Quack", "Rabbit", "Sparrow", "Tree", "Umbrella", "Van", "Whale", "X-ray", "Yogurt", "Zebra"};
         ArrayList<String> alphaList = new ArrayList<>();
         int j = 65;
         for (int i = 0; i < 26; i++) {
